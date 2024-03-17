@@ -80,7 +80,16 @@ button {
     padding-right: 0;
         
 }
-
+.menu .menu-link-underline {
+    color: #404bbf;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-link-underline {
+    color: #404bbf;
+    position: relative;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .menu-link:hover,
 .menu-link:focus {
     color: #404bbf;
