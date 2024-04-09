@@ -86,6 +86,10 @@ button {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .menu-link-underline {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #404bbf;
     padding: 24px 0;
     position: relative;
