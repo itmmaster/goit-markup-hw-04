@@ -60,7 +60,6 @@ button {
 }
 .menu {
     display: flex;
-    padding-right: 332px;
     gap: 40px;
 }
 .menu-adress-item {
@@ -87,6 +86,7 @@ button {
 }
 .menu-link-underline {
     color: #404bbf;
+    padding: 24px 0;
     position: relative;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -109,6 +109,7 @@ button {
 }
 .adr-page-header {
     font-style: normal;
+    margin-left: auto;
 }
 .menu-adress-link {
     font-weight: 400;
@@ -129,7 +130,6 @@ button {
 .hero {
     background-color: #2e2f42;
     padding: 188px 0;
-    padding-bottom: 293px;
     margin-right: auto;
     margin-left: auto;
     text-align: center;
@@ -239,7 +239,6 @@ button {
 
 /* =========== Our Team Section styles =========== */
 .our-team-sect {
-    height: 732px;
     background-color: #F4F4FD;
     padding: 120px 0;
 }
@@ -273,7 +272,6 @@ button {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .our-team-title {
-    background-color: #FFFFFF;
     color: #2e2f42;
     font-weight: 700;
     font-size: 36px;
@@ -284,7 +282,6 @@ button {
     margin-bottom: 72px;
 }
 .our-team-list-item {
-    background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
