@@ -248,7 +248,6 @@ button {
     padding: 120px 0;
 }
 .our-team-list {
-    background-color: #FFFFFF;
     display: flex;
     gap: 24px;
 }
@@ -316,6 +315,7 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 8px;
 }
 .our-team-link-items .link {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
